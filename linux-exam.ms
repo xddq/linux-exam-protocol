@@ -50,7 +50,7 @@ What is a copyleft license? Explain the concept.
 .\" exercise block
 .\"
 .NH
-Bash
+Shell
 .\" starts a list item that uses a bullet unit(unordered list) with an indent of
 .\" 2
 .LP
@@ -91,7 +91,7 @@ variables? Explain automatic variables.
 Change the makefile so that the resulting binary will be built using multiple
 source files.
 .IP \[bu]
-How does make check if a file has to be recompiled or rebuilb?
+How does make check if a file has to be recompiled or rebuild?
 .PE
 .\"
 .\" exercise block
