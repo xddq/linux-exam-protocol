@@ -74,8 +74,13 @@ Make
 .sp 0.5
 .\" additional/missing information
 .LP
-.\" left aligns makefile and scales it to be 3i width and height.
-.PSPIC -L "./makefile.eps" 3i 3i
+NOTE: A specific makefile was given here. It contained default variables (CC,
+LINKFLAGS, etc..) and some rules. It contained one phony rule "delete" which did
+delete objects. It contained two more rules to automate the compilation of given cpp files into an executable.
+e.g.
+.br
+%.o: %.cpp
+    $(CC) -c $^ -o $@
 .sp 0.5
 .\" starts a list item that uses a bullet unit(unordered list) with an indent of
 .\" 2
