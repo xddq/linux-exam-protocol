@@ -12,7 +12,7 @@ all: linux-exam-protocol.pdf
 
 # compiles every groff document to pdf
 linux-exam-protocol.pdf: linux-exam.ms
-	groff -ms $< -Tpdf > $@
+	groff -ms $< -Tps | ps2pdf - $@
 
 # declare phony target to specify it as a name instead of a file.
 # removes all compiled files
