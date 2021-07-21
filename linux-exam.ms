@@ -103,7 +103,7 @@ What is the difference between cmake and make?
 What is the purpose of CMakeLists.txt?
 .IP \[bu]
 How can we use cmake to create a hello_world executable from the source file
-hello_world.cpp?
+hello_world.cpp? Give an example.
 .PE
 .\"
 .\" exercise block
